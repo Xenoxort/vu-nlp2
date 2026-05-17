@@ -1,0 +1,83 @@
+================================================================================
+INITIALIZING
+================================================================================
+Loading data...
+took 0.74 seconds
+Building parser...
+took 0.52 seconds
+Loading pretrained embeddings...
+took 0.95 seconds
+Vectorizing data...
+took 0.60 seconds
+Preprocessing training data...
+took 17.25 seconds
+took 0.01 seconds
+
+================================================================================
+TRAINING
+================================================================================
+Epoch 1 out of 10
+Average Train Loss: 0.18430244073965205
+Evaluating on dev set
+- dev UAS: 83.62
+New best dev UAS! Saving model.
+
+Epoch 2 out of 10
+Average Train Loss: 0.11438244006705361
+Evaluating on dev set
+- dev UAS: 86.01
+New best dev UAS! Saving model.
+
+Epoch 3 out of 10
+Average Train Loss: 0.09969686212429366
+Evaluating on dev set
+- dev UAS: 86.77
+New best dev UAS! Saving model.
+
+Epoch 4 out of 10
+Average Train Loss: 0.09077946241799888
+Evaluating on dev set
+- dev UAS: 87.41
+New best dev UAS! Saving model.
+
+Epoch 5 out of 10
+Average Train Loss: 0.08463371339258113
+Evaluating on dev set
+- dev UAS: 87.91
+New best dev UAS! Saving model.
+
+Epoch 6 out of 10
+Average Train Loss: 0.07974025493011976
+Evaluating on dev set
+- dev UAS: 88.22
+New best dev UAS! Saving model.
+
+Epoch 7 out of 10
+Average Train Loss: 0.07556470151127868
+Evaluating on dev set
+- dev UAS: 88.14
+
+Epoch 8 out of 10
+Average Train Loss: 0.07226641635003286
+Evaluating on dev set
+- dev UAS: 88.58
+New best dev UAS! Saving model.
+
+Epoch 9 out of 10
+Average Train Loss: 0.06867334884853461
+Evaluating on dev set
+- dev UAS: 88.59
+New best dev UAS! Saving model.
+
+Epoch 10 out of 10
+Average Train Loss: 0.06588148318827797
+Evaluating on dev set
+- dev UAS: 88.35
+
+================================================================================
+TESTING
+================================================================================
+Restoring the best model weights found on the dev set
+Final evaluation on test set
+- test UAS: 89.17
+Done!
